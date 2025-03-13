@@ -1,0 +1,79 @@
+/* Glass Effect Container */
+section {
+    background: rgba(252, 255, 255, 0.585);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    /* backdrop-filter: blur(15px); */
+    text-align: center;
+    width: 320px;
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Input & Select */
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+    color: #656565;
+}
+
+select {
+    background: #f8f9fa;
+    cursor: pointer;
+}
+
+select:hover {
+    background: #dee2e6;
+}
+
+input {
+    background: #fff;
+    border: 1px solid #bbb;
+    color: #656565;
+}
+
+/* Button Styling */
+button {
+    background: #2575fc;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #245eaf;
+    transform: scale(1.1);
+}
+
+/* Output Text */
+p {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
