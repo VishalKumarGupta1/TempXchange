@@ -81,6 +81,14 @@ To run TempXchange locally, follow these steps:
 
 - **React**: For building the user interface and managing state.
 
+## Preview
+
+Here's a screenshot of how TempXchange looks:
+
+![Screenshot 2025-03-15 151634](https://github.com/user-attachments/assets/0b8d5232-352c-4fab-a092-c54e6a8032eb)
+
+
+
 ## Contributing
 
 Contributions are welcome! If you'd like to improve or add to the project, feel free to fork the repository and submit a pull request.
